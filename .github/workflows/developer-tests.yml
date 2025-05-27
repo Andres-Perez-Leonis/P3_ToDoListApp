@@ -5,13 +5,8 @@ on: push
 jobs:
   launch-tests:
     runs-on: ubuntu-latest
-    container:
-      image: openjdk:8-jdk-alpine
+    container: openjdk:8-jdk-alpine
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Give execute permission to Maven wrapper
-        run: chmod +x ./mvnw
-
+      - uses: actions/checkout@v1
       - name: Launch tests with Maven
         run: ./mvnw test
