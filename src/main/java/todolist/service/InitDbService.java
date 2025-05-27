@@ -11,8 +11,6 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 
 @Service
-// Se ejecuta solo si el perfil activo es 'dev'
-@Profile("dev")
 public class InitDbService {
 
     @Autowired
