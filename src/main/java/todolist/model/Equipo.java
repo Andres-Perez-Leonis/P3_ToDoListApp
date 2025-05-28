@@ -19,7 +19,21 @@ import java.util.Set;
         @NotNull
         private String nombre;
 
+        @ManyToMany(fetch = FetchType.LAZY)
+        @JoinTable(name = "equipo_usuario",
+                joinColumns = { @JoinColumn(name = "fk_equipo") },inverseJoinColumns = {@JoinColumn(name = "fk_usuario")})
 
+        Set<Usuario> usuarios = new HashSet<>();
+
+        public Set<Usuario> getUsuarios() {
+            return usuarios;
+        }
+        public void addUsuario(Usuario usuario) {
+            // Hay que actualiar ambas colecciones, porque
+            // JPA/Hibernate no lo hace automáticamente
+            this.getUsuarios().add(usuario);
+            usuario.getEquipos().add(this);
+        }
         // Constructor vacío necesario para JPA/Hibernate.
         // No debe usarse desde la aplicación.
         public Equipo() {}
