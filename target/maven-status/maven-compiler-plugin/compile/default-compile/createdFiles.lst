@@ -8,11 +8,13 @@ todolist/controller/UserController.class
 todolist/controller/exception/TareaNotFoundException.class
 todolist/controller/LoginController.class
 todolist/service/UsuarioService$LoginStatus.class
+todolist/repository/EquipoRepository.class
 todolist/dto/UsuarioData.class
 todolist/service/UsuarioService.class
 todolist/authentication/ManagerUserSession.class
 todolist/dto/LoginData.class
 todolist/service/InitDbService.class
+todolist/model/Equipo.class
 todolist/config/ModelMapperConfig.class
 todolist/controller/DetailsUserController.class
 todolist/repository/UsuarioRepository.class
