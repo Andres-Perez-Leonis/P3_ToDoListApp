@@ -14,8 +14,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Sql(scripts = "/clean-db.sql")
 public class EquipoTest {
 
-    @Autowired
-    private EquipoRepository equipoRepository;
     @Test
     public void crearEquipo() {
         Equipo equipo = new Equipo("Project P1");
