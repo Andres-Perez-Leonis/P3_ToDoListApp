@@ -138,4 +138,17 @@ public class EquipoService {
         usuarioRepository.save(usuario);
         // con ello se guarda la relación
     }
+
+    @Transactional
+    public List<EquipoData> equiposUsuario(long idUsuario) {
+        Usuario usuario = usuarioRepository.findById(idUsuario).orElse(null);
+        if (usuario == null) return new ArrayList<>();
+
+        // cambiamos el tipo de la lista de equipos
+        List<EquipoData> equipos = usuario.getEquipos().stream()
+                .map(equipo -> modelMapper.map(equipo, EquipoData.class))
+                .collect(Collectors.toList());
+        return equipos;
+
+    }
 }
