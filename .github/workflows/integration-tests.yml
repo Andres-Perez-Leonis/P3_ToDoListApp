@@ -20,6 +20,9 @@ jobs:
           --health-retries 5
 
     steps:
+      - name: Clean build
+        run: ./mvnw clean
+
       - uses: actions/checkout@v1
 
       - name: Set up Maven wrapper permissions
