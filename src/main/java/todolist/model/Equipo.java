@@ -3,7 +3,9 @@ package todolist.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "equipos")
@@ -16,6 +18,13 @@ import java.util.Objects;
         private Long id;
         @NotNull
         private String nombre;
+
+        @ManyToMany(fetch = FetchType.LAZY)
+        @JoinTable(name = "equipo_usuario",
+                joinColumns = { @JoinColumn(name = "fk_equipo") },
+                inverseJoinColumns = {@JoinColumn(name = "fk_usuario")})
+
+        Set<Usuario> usuarios = new HashSet<>();
 
         // Constructor vacío necesario para JPA/Hibernate.
         // No debe usarse desde la aplicación.
