@@ -20,13 +20,13 @@ jobs:
           --health-retries 5
 
     steps:
-      - name: Clean build
-        run: ./mvnw clean
-
       - uses: actions/checkout@v1
 
       - name: Set up Maven wrapper permissions
         run: chmod +x ./mvnw
+        
+      - name: Clean build
+        run: ./mvnw clean
 
       - name: Launch tests with Maven
         run: ./mvnw test -Dspring.profiles.active=postgres
