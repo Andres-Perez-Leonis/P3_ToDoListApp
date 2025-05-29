@@ -4,16 +4,19 @@
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/TareaService.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/TareaController.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/repository/UsuarioRepository.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/EquipoController.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/UserController.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/UsuarioService.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/TareaServiceException.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/LoginController.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/DetailsUserController.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/dto/EquipoData.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/dto/TareaData.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/model/Usuario.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/HomeController.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/repository/EquipoRepository.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/repository/TareaRepository.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/EquipoService.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/model/Equipo.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/controller/exception/UsuarioNoLogeadoException.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/InitDbService.java
@@ -23,3 +26,4 @@
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/dto/RegistroData.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/Application.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/UsuarioServiceException.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/main/java/todolist/service/EquipoServiceException.java

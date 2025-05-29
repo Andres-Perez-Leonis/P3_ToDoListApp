@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Equipos</title></head>
+<body>
+<h1>Listado de equipos</h1>
+
+<ul th:if="${equipos.size() > 0}">
+    <li th:each="equipo : ${equipos}">
+        <a th:href="@{/equipos/{id}(id=${equipo.id})}" th:text="${equipo.nombre}">Nombre equipo</a>
+    </li>
+</ul>
+<p th:if="${equipos.size() == 0}">No hay equipos registrados.</p>
+</body>
+</html>

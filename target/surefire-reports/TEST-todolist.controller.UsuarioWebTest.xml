@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="todolist.controller.UsuarioWebTest" time="6.67" tests="3" errors="3" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="todolist.controller.UsuarioWebTest" time="6.652" tests="3" errors="3" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="POSTGRES_HOST" value="postgres"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire/surefirebooter9621811617734127628.jar /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire 2025-05-28T23-36-49_401-jvmRun1 surefire8868590630026636833tmp surefire_014386775080160304623tmp"/>
+    <property name="sun.java.command" value="/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire/surefirebooter14806050703075306496.jar /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire 2025-05-29T18-00-04_710-jvmRun1 surefire242374394890743356tmp surefire_012480590845552785519tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/test-classes:/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/classes:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.14/spring-boot-starter-web-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.14/spring-boot-starter-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot/2.7.14/spring-boot-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.14/spring-boot-autoconfigure-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.14/spring-boot-starter-logging-2.7.14.jar:/home/andres/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/home/andres/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/home/andres/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/andres/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/andres/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/andres/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/andres/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.14/spring-boot-starter-json-2.7.14.jar:/home/andres/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/home/andres/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/home/andres/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/home/andres/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/home/andres/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/home/andres/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.14/spring-boot-starter-tomcat-2.7.14.jar:/home/andres/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.78/tomcat-embed-core-9.0.78.jar:/home/andres/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.78/tomcat-embed-websocket-9.0.78.jar:/home/andres/.m2/repository/org/springframework/spring-web/5.3.29/spring-web-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-beans/5.3.29/spring-beans-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-aop/5.3.29/spring-aop-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-context/5.3.29/spring-context-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-expression/5.3.29/spring-expression-5.3.29.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.7.14/spring-boot-starter-thymeleaf-2.7.14.jar:/home/andres/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar:/home/andres/.m2/repository/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar:/home/andres/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/home/andres/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/andres/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/andres/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar:/home/andres/.m2/repository/org/postgresql/postgresql/42.2.22/postgresql-42.2.22.jar:/home/andres/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.14/spring-boot-starter-data-jpa-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.14/spring-boot-starter-aop-2.7.14.jar:/home/andres/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.14/spring-boot-starter-jdbc-2.7.14.jar:/home/andres/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/home/andres/.m2/repository/org/springframework/spring-jdbc/5.3.29/spring-jdbc-5.3.29.jar:/home/andres/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/home/andres/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/home/andres/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar:/home/andres/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/andres/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/home/andres/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/andres/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/andres/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/andres/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/andres/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar:/home/andres/.m2/repository/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar:/home/andres/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/andres/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/andres/.m2/repository/org/springframework/data/spring-data-jpa/2.7.14/spring-data-jpa-2.7.14.jar:/home/andres/.m2/repository/org/springframework/data/spring-data-commons/2.7.14/spring-data-commons-2.7.14.jar:/home/andres/.m2/repository/org/springframework/spring-orm/5.3.29/spring-orm-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-tx/5.3.29/spring-tx-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-aspects/5.3.29/spring-aspects-5.3.29.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.7.14/spring-boot-starter-validation-2.7.14.jar:/home/andres/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.78/tomcat-embed-el-9.0.78.jar:/home/andres/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.5.Final/hibernate-validator-6.2.5.Final.jar:/home/andres/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/home/andres/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.7.14/spring-boot-starter-test-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-test/2.7.14/spring-boot-test-2.7.14.jar:/home/andres/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.7.14/spring-boot-test-autoconfigure-2.7.14.jar:/home/andres/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/andres/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/home/andres/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/home/andres/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/andres/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/andres/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/andres/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/home/andres/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/andres/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/andres/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/andres/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/andres/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/andres/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/andres/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/andres/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/andres/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/andres/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/home/andres/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.jar:/home/andres/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/andres/.m2/repository/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1.jar:/home/andres/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/andres/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/andres/.m2/repository/org/springframework/spring-core/5.3.29/spring-core-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-jcl/5.3.29/spring-jcl-5.3.29.jar:/home/andres/.m2/repository/org/springframework/spring-test/5.3.29/spring-test-5.3.29.jar:/home/andres/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/andres/.m2/repository/org/modelmapper/modelmapper/3.0.0/modelmapper-3.0.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire/surefirebooter9621811617734127628.jar"/>
+    <property name="surefire.real.class.path" value="/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/target/surefire/surefirebooter14806050703075306496.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-Ubuntu-0ubuntu124.04"/>
     <property name="user.name" value="andres"/>
@@ -63,12 +63,12 @@ Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC 
 Caused by: org.postgresql.util.PSQLException: El intento de conexión falló.
 Caused by: java.net.UnknownHostException: postgres
 </error>
-    <system-out><![CDATA[2025-05-28 23:37:33.570  INFO 40346 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [todolist.controller.UsuarioWebTest], using SpringBootContextLoader
-2025-05-28 23:37:33.570  INFO 40346 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [todolist.controller.UsuarioWebTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2025-05-28 23:37:33.570  INFO 40346 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [todolist.controller.UsuarioWebTest]: UsuarioWebTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-05-28 23:37:33.572  INFO 40346 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration todolist.Application for test class todolist.controller.UsuarioWebTest
-2025-05-28 23:37:33.573  INFO 40346 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2025-05-28 23:37:33.573  INFO 40346 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1484cb57, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e250539, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5860e4c3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3edc999f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cb03360, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a8ae302, org.springframework.test.context.transaction.TransactionalTestExecutionListener@65134e6c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3fd93330, org.springframework.test.context.event.EventPublishingTestExecutionListener@32ff3c98, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f804b36, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@201f0e84, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5629e904, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d7914a5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40fd25c7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@18ce7872]
+    <system-out><![CDATA[2025-05-29 18:01:04.670  INFO 14960 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [todolist.controller.UsuarioWebTest], using SpringBootContextLoader
+2025-05-29 18:01:04.670  INFO 14960 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [todolist.controller.UsuarioWebTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-05-29 18:01:04.670  INFO 14960 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [todolist.controller.UsuarioWebTest]: UsuarioWebTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-29 18:01:04.674  INFO 14960 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration todolist.Application for test class todolist.controller.UsuarioWebTest
+2025-05-29 18:01:04.675  INFO 14960 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-05-29 18:01:04.676  INFO 14960 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a2d02d8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5b1378cf, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@49925329, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16adf66f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@64e41da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@24f1d4f3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fa1c05f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6465f4a, org.springframework.test.context.event.EventPublishingTestExecutionListener@428b5b3f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@687749d1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19a5cfb8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dad6fc9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35e79be0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@678c654c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@50e3be0a]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -78,13 +78,13 @@ Caused by: java.net.UnknownHostException: postgres
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.7.14)
 
-2025-05-28 23:37:33.589  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 40346 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
-2025-05-28 23:37:33.589  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
-2025-05-28 23:37:33.665  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-28 23:37:33.671  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
-2025-05-28 23:37:33.794  INFO 40346 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-28 23:37:33.798  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
-2025-05-28 23:37:34.800 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Exception during pool initialization.
+2025-05-29 18:01:04.698  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 14960 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
+2025-05-29 18:01:04.698  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
+2025-05-29 18:01:04.791  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 18:01:04.796  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+2025-05-29 18:01:04.880  INFO 14960 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 18:01:04.882  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2025-05-29 18:01:05.884 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -214,7 +214,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:34.801  WARN 40346 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-05-29 18:01:05.885  WARN 14960 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -344,9 +344,9 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:34.801  INFO 40346 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
-2025-05-28 23:37:34.829  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
-2025-05-28 23:37:35.831 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Exception during pool initialization.
+2025-05-29 18:01:05.885  INFO 14960 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2025-05-29 18:01:05.910  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2025-05-29 18:01:06.912 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -475,14 +475,14 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:35.832  WARN 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2025-05-28 23:37:35.832 ERROR 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
-2025-05-28 23:37:35.832 ERROR 40346 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:35.832  WARN 40346 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:35.834  INFO 40346 --- [           main] ConditionEvaluationReportLoggingListener : 
+2025-05-29 18:01:06.913  WARN 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2025-05-29 18:01:06.913 ERROR 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
+2025-05-29 18:01:06.913 ERROR 14960 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:06.913  WARN 14960 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:06.914  INFO 14960 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2025-05-28 23:37:35.835 ERROR 40346 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2025-05-29 18:01:06.916 ERROR 14960 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.29.jar:5.3.29]
@@ -624,7 +624,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:35.836 ERROR 40346 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1484cb57] to prepare test instance [todolist.controller.UsuarioWebTest@24c8bc1e]
+2025-05-29 18:01:06.916 ERROR 14960 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1a2d02d8] to prepare test instance [todolist.controller.UsuarioWebTest@5f160f9c]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.29.jar:5.3.29]
@@ -788,13 +788,13 @@ Caused by: java.net.UnknownHostException: postgres
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.7.14)
 
-2025-05-28 23:37:35.853  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 40346 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
-2025-05-28 23:37:35.853  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
-2025-05-28 23:37:35.933  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-28 23:37:35.939  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
-2025-05-28 23:37:36.021  INFO 40346 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-28 23:37:36.024  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
-2025-05-28 23:37:37.026 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Exception during pool initialization.
+2025-05-29 18:01:06.930  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 14960 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
+2025-05-29 18:01:06.930  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
+2025-05-29 18:01:07.009  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 18:01:07.015  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+2025-05-29 18:01:07.095  INFO 14960 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 18:01:07.098  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2025-05-29 18:01:08.100 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -924,7 +924,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:37.027  WARN 40346 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-05-29 18:01:08.101  WARN 14960 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -1054,9 +1054,9 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:37.028  INFO 40346 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
-2025-05-28 23:37:37.059  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
-2025-05-28 23:37:38.061 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Exception during pool initialization.
+2025-05-29 18:01:08.101  INFO 14960 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2025-05-29 18:01:08.124  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2025-05-29 18:01:09.126 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -1185,14 +1185,14 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:38.061  WARN 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2025-05-28 23:37:38.061 ERROR 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
-2025-05-28 23:37:38.062 ERROR 40346 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:38.062  WARN 40346 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:38.063  INFO 40346 --- [           main] ConditionEvaluationReportLoggingListener : 
+2025-05-29 18:01:09.126  WARN 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2025-05-29 18:01:09.127 ERROR 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
+2025-05-29 18:01:09.127 ERROR 14960 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:09.127  WARN 14960 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:09.128  INFO 14960 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2025-05-28 23:37:38.065 ERROR 40346 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2025-05-29 18:01:09.129 ERROR 14960 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.29.jar:5.3.29]
@@ -1334,7 +1334,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:38.067 ERROR 40346 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1484cb57] to prepare test instance [todolist.controller.UsuarioWebTest@b0bd567]
+2025-05-29 18:01:09.130 ERROR 14960 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1a2d02d8] to prepare test instance [todolist.controller.UsuarioWebTest@56297b5f]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.29.jar:5.3.29]
@@ -1498,13 +1498,13 @@ Caused by: java.net.UnknownHostException: postgres
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.7.14)
 
-2025-05-28 23:37:38.087  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 40346 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
-2025-05-28 23:37:38.087  INFO 40346 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
-2025-05-28 23:37:38.147  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-28 23:37:38.151  INFO 40346 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 3 JPA repository interfaces.
-2025-05-28 23:37:38.208  INFO 40346 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-28 23:37:38.211  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
-2025-05-28 23:37:39.212 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Exception during pool initialization.
+2025-05-29 18:01:09.144  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : Starting UsuarioWebTest using Java 21.0.7 on andres-ZenBook-UX325UA-UM325UA with PID 14960 (started by andres in /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp)
+2025-05-29 18:01:09.144  INFO 14960 --- [           main] todolist.controller.UsuarioWebTest       : The following 1 profile is active: "postgres"
+2025-05-29 18:01:09.226  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 18:01:09.232  INFO 14960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
+2025-05-29 18:01:09.308  INFO 14960 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 18:01:09.310  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2025-05-29 18:01:10.312 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-27 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -1634,7 +1634,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:39.214  WARN 40346 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-05-29 18:01:10.313  WARN 14960 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -1764,9 +1764,9 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 116 common frames omitted
 
-2025-05-28 23:37:39.214  INFO 40346 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
-2025-05-28 23:37:39.239  INFO 40346 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
-2025-05-28 23:37:40.241 ERROR 40346 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Exception during pool initialization.
+2025-05-29 18:01:10.313  INFO 14960 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2025-05-29 18:01:10.342  INFO 14960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2025-05-29 18:01:11.344 ERROR 14960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-27 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: El intento de conexión falló.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315) ~[postgresql-42.2.22.jar:42.2.22]
@@ -1895,14 +1895,14 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:40.242  WARN 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2025-05-28 23:37:40.242 ERROR 40346 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
-2025-05-28 23:37:40.242 ERROR 40346 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:40.242  WARN 40346 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
-2025-05-28 23:37:40.244  INFO 40346 --- [           main] ConditionEvaluationReportLoggingListener : 
+2025-05-29 18:01:11.344  WARN 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2025-05-29 18:01:11.344 ERROR 14960 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : El intento de conexión falló.
+2025-05-29 18:01:11.345 ERROR 14960 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:11.345  WARN 14960 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2025-05-29 18:01:11.346  INFO 14960 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2025-05-28 23:37:40.245 ERROR 40346 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2025-05-29 18:01:11.348 ERROR 14960 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.29.jar:5.3.29]
@@ -2044,7 +2044,7 @@ Caused by: java.net.UnknownHostException: postgres
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213) ~[postgresql-42.2.22.jar:42.2.22]
 	... 115 common frames omitted
 
-2025-05-28 23:37:40.246 ERROR 40346 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1484cb57] to prepare test instance [todolist.controller.UsuarioWebTest@496101d1]
+2025-05-29 18:01:11.349 ERROR 14960 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1a2d02d8] to prepare test instance [todolist.controller.UsuarioWebTest@39562fc2]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.29.jar:5.3.29]

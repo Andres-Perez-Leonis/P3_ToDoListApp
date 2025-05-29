@@ -1,8 +1,10 @@
 todolist/repository/UsuarioTest.class
 todolist/controller/UsuarioWebTest.class
-todolist/service/TareaServiceTest.class
+todolist/service/EquipoServiceTest.class
 todolist/service/UsuarioServiceTest.class
 todolist/repository/EquipoTest.class
+todolist/controller/TareaWebTest.class
+todolist/service/TareaServiceTest.class
+todolist/controller/EquipoControllerTest.class
 todolist/repository/TareaTest.class
 todolist/controller/AboutPageTest.class
-todolist/controller/TareaWebTest.class
