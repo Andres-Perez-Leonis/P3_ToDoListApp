@@ -128,7 +128,7 @@ public class EquipoServiceTest {
         );
 
         // Eliminar usuario
-        equipoService.eliminarUsuario(usuario.getId());
+        equipoService.eliminarUsuario(usuario.getId(), equipoData.getId());
 
         // Comprobar que el usuario ya no está en el equipo
         List<UsuarioData> usuariosDespuesDeEliminar = equipoService.usuariosEquipo(equipoData.getId());
