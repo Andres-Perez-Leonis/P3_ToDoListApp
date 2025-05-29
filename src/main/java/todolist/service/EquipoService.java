@@ -106,7 +106,7 @@ public class EquipoService {
     @Transactional
     public List<UsuarioData> usuariosEquipo(Long id) {
         // recuperamos el equipo
-        Equipo equipo = equipoRepository.findById(id).orElse(null);
+        Equipo equipo = equipoRepository.findById(id).orElseThrow(() -> new EquipoServiceException("El equipo no existe"));
         if (equipo == null) return new ArrayList<>();
 
         // cambiamos el tipo de la lista de usuarios
