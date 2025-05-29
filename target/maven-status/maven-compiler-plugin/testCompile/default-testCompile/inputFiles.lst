@@ -1,7 +1,9 @@
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/service/UsuarioServiceTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/controller/UsuarioWebTest.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/service/EquipoServiceTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/controller/TareaWebTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/controller/AboutPageTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/service/TareaServiceTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/repository/UsuarioTest.java
 /home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/repository/TareaTest.java
+/home/andres/Escritorio/p2-todolist-app/P3_ToDoListApp/src/test/java/todolist/repository/EquipoTest.java
