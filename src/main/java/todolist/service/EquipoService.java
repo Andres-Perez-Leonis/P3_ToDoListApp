@@ -149,4 +149,10 @@ public class EquipoService {
         return equipos;
 
     }
+
+    @Transactional
+    public void eliminarUsuario(Long idUsuario) {
+        Usuario user = usuarioRepository.findById(idUsuario).orElseThrow(() -> new UsuarioServiceException("El usuario no existe"));
+        usuarioRepository.delete(user);
+    }
 }
