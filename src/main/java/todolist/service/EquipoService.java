@@ -151,8 +151,13 @@ public class EquipoService {
     }
 
     @Transactional
-    public void eliminarUsuario(Long idUsuario) {
-        Usuario user = usuarioRepository.findById(idUsuario).orElseThrow(() -> new UsuarioServiceException("El usuario no existe"));
-        usuarioRepository.delete(user);
+    public void eliminarUsuario(Long idUsuario, Long idEquipo) {
+        Equipo equipo = equipoRepository.findById(idEquipo).orElseThrow(() -> new EquipoServiceException("Equipo no encontrado"));
+        Usuario usuario = usuarioRepository.findById(idUsuario).orElseThrow(() -> new UsuarioServiceException("Usuario no encontrado"));
+
+        equipo.getUsuarios().remove(usuario);  // Quita usuario del equipo
+
+        equipoRepository.save(equipo);
+
     }
 }
