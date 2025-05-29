@@ -82,7 +82,7 @@ public class EquipoService {
 
     @Transactional
     public EquipoData recuperarEquipo(Long id) {
-        Equipo equipo = equipoRepository.findById(id).orElse(null);
+        Equipo equipo = equipoRepository.findById(id).orElseThrow(() -> new EquipoServiceException("El equipo no existe"));
 
         return modelMapper.map(equipo, EquipoData.class);
     }
@@ -119,12 +119,10 @@ public class EquipoService {
     @Transactional
     public void añadirUsuarioAEquipo(Long idEquipo, Long idUsuario) {
         // recuperamos el equipo
-        Equipo equipo = equipoRepository.findById(idEquipo).orElse(null);
-        if (equipo == null) throw new EquipoServiceException("El equipo no existe");
+        Equipo equipo = equipoRepository.findById(idEquipo).orElseThrow(() -> new EquipoServiceException("El equipo no existe"));
 
         // recuperamos el usuario
-        Usuario usuario = usuarioRepository.findById(idUsuario).orElse(null);
-        if (usuario == null) throw new EquipoServiceException("El usuario no existe");
+        Usuario usuario = usuarioRepository.findById(idUsuario).orElseThrow(() -> new EquipoServiceException("El usuario no existe"));
 
         // comprobamos que el usuario no pertenece al equipo
         if (equipo.getUsuarios().contains(usuario))
@@ -141,7 +139,7 @@ public class EquipoService {
 
     @Transactional
     public List<EquipoData> equiposUsuario(long idUsuario) {
-        Usuario usuario = usuarioRepository.findById(idUsuario).orElse(null);
+        Usuario usuario = usuarioRepository.findById(idUsuario).orElseThrow(() -> new EquipoServiceException("El usuario no existe"));
         if (usuario == null) return new ArrayList<>();
 
         // cambiamos el tipo de la lista de equipos
