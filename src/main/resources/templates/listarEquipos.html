@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="fragments :: head (titulo='Login')">
     <title>Equipos</title>
 
 </head>
 <body>
 
-<div th:replace="fragments::navbar"></div>
+<div th:replace="fragments::navbar"/>
 <h1>Listado de equipos</h1>
 
 <ul th:if="${equipos.size() > 0}">
