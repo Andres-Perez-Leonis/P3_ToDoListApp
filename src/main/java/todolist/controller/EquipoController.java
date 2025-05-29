@@ -32,7 +32,7 @@ public class EquipoController {
         return "listarMiembros";
     }
 
-    @PostMapping
+    @PostMapping("/crear")
     public String crearEquipo(@RequestParam String nombre, Model model) {
         try {
             equipoService.crearEquipo(nombre);
