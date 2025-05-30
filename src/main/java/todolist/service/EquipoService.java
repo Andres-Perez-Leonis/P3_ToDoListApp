@@ -156,8 +156,10 @@ public class EquipoService {
         Usuario usuario = usuarioRepository.findById(idUsuario).orElseThrow(() -> new UsuarioServiceException("Usuario no encontrado"));
 
         equipo.getUsuarios().remove(usuario);  // Quita usuario del equipo
+        usuario.getEquipos().remove(equipo);
 
         equipoRepository.save(equipo);
+        usuarioRepository.save(usuario);
 
     }
 }
