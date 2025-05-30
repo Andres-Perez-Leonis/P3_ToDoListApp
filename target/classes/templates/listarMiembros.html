@@ -22,6 +22,10 @@
     </tr>
     </tbody>
 </table>
+<form th:action="@{/equipos/unirse}" method="post">
+    <input type="hidden" name="idEquipo" th:value="${idEquipo}" />
+    <button type="submit">Unirme al Equipo</button>
+</form>
 
 <p th:if="${usuarios.size() == 0}">No hay usuarios registrados.</p>
 </body>
