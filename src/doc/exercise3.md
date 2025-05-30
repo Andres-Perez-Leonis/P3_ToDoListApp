@@ -172,3 +172,8 @@ Esta funcionalidad permite a los usuarios crear nuevos equipos y gestionar su pr
 ### Ejecutar Contenedor Docker
 
     docker run --rm -p 8080:8080 andresperezleonis/p2-todolistapp:1.2.0
+
+## Imagenes relevantes
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
