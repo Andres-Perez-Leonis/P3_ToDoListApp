@@ -22,11 +22,14 @@
     </tr>
     </tbody>
 </table>
-<form th:action="@{/equipos/unirse}" method="post">
+<form th:if="${!yaEstaEnEquipo}" th:action="@{/equipos/unirse}" method="post">
     <input type="hidden" name="idEquipo" th:value="${idEquipo}" />
     <button type="submit">Unirme al Equipo</button>
 </form>
-
+<form th:if="${yaEstaEnEquipo}" th:action="@{/equipos/salirse}" method="post">
+    <input type="hidden" name="idEquipo" th:value="${idEquipo}" />
+    <button type="submit">Salir del Equipo</button>
+</form>
 <p th:if="${usuarios.size() == 0}">No hay usuarios registrados.</p>
 </body>
 </html>
