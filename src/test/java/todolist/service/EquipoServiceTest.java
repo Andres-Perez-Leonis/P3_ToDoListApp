@@ -4,6 +4,7 @@ import org.springframework.test.context.jdbc.Sql;
 import todolist.dto.EquipoData;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,4 +103,42 @@ public class EquipoServiceTest {
         assertThatThrownBy(() -> equipoService.añadirUsuarioAEquipo(equipo.getId(), 1L))
                 .isInstanceOf(EquipoServiceException.class);
     }
+
+    @Test
+    public void eliminarUsuarioDeEquipo() {
+        // Crear equipo
+        EquipoData equipoData = equipoService.crearEquipo("Project 1");
+
+        // Crear y registrar usuario
+        UsuarioData usuario = new UsuarioData();
+        usuario.setEmail("user@umh");
+        usuario.setPassword("1234");
+        usuario.setNombre("User 1");
+        usuario = usuarioService.registrar(usuario);
+
+        // Añadir usuario al equipo
+        equipoService.añadirUsuarioAEquipo(equipoData.getId(), usuario.getId());
+
+        // Comprobar que el usuario se ha añadido correctamente al equipo
+        UsuarioData userTMP = usuario;
+        List<UsuarioData> usuariosAntesDeEliminar = equipoService.usuariosEquipo(equipoData.getId());
+        assertTrue(
+                usuariosAntesDeEliminar.stream().anyMatch(u -> u.getId().equals(userTMP.getId())),
+                "El usuario no esta en el equipo"
+        );
+
+        // Eliminar usuario
+        equipoService.eliminarUsuario(usuario.getId(), equipoData.getId());
+
+        // Comprobar que el usuario ya no está en el equipo
+        List<UsuarioData> usuariosDespuesDeEliminar = equipoService.usuariosEquipo(equipoData.getId());
+        assertFalse(
+                usuariosDespuesDeEliminar.stream().anyMatch(u -> u.getId().equals(userTMP.getId())),
+                "El usuario no debería estar en el equipo despues de ser eliminado"
+        );
+
+        // También puedes comprobar que ya no existe en el sistema
+        //assertNull(usuarioService.findById(usuario.getId()), "El usuario debería haber sido eliminado");
+    }
+
 }
