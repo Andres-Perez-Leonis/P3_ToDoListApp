@@ -25,6 +25,10 @@ public class InitDbService {
         Usuario usuario = new Usuario("richard@umh.es");
         usuario.setNombre("Richard Stallman");
         usuario.setPassword("1234");
+
+        Usuario tmp = usuarioRepository.findByEmail(usuario.getEmail()).orElse(null);
+        if (tmp != null) { return; }
+
         usuarioRepository.save(usuario);
 
         Tarea tarea1 = new Tarea(usuario, "Create the GNU General Public License");
